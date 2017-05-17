@@ -1,0 +1,21 @@
+/* baila.css */
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.cuadro{
+	border: 2px solid #777777;
+	margin: auto;
+	width: 300px;
+	height: 500px;
+	background-image: url("imagen/bailando.jpg");
+	
+	animation: baila 2.2s steps(16) infinite;
+}
+
+
+@keyframes baila{
+  to { background-position: -4800px; }
